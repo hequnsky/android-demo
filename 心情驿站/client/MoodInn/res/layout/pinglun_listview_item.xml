@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/pinglunName"
+	        android:text="张三"
+	        android:textColor="#104E8B"
+	        />
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text=":"
+	        android:id="@+id/tvmh"
+	        android:paddingLeft="3dp"
+	        />
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="veryGood!"
+	        android:paddingLeft="3dp"
+	        android:id="@+id/pinglunContent"
+	        />
+</LinearLayout>

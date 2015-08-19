@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">心情驛站</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="sending_request">正在发送请求</string>
+	<string name="testData">和四年前一样，詹姆斯的决定事件仍然牵动着外界的心，传闻称詹姆斯将在他的官方网站公布决定，这也导致勒布朗的官网访问量暴涨，甚至一度难以正常访问。还有消息声称，詹姆斯的经纪团队已经告知克利夫兰当地警方，要在詹姆斯位于阿克伦的住宅附近增派警力， 因为在得知勒布朗回巢的消息后，已经有众多球迷聚集在其家附近</string>
+	<string name="title_alert">提示信息</string>
+	<string name="connect_fail">连接服务器失败</string>
+	
+	    <!-- 自定义组件 -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+
+    <!-- 消除警告，可忽略 -->
+    <string name="d">图片描述</string>
+    <string name="image_desc">图片</string>
+    
+    <string name="loading">加载中...</string>
+</resources>

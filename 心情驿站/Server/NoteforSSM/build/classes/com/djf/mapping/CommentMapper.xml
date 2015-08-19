@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.djf.dao.CommentDAO">
+	
+
+
+	<!-- 增加一条评论-->
+	<insert id="addComment" parameterType="com.djf.bean.Comment">
+		insert into comment (id,diaryid,comment_user_id,comment_detail,comment_time)
+		values (#{id,jdbcType=VARCHAR},#{diaryid,jdbcType=VARCHAR},
+		#{comment_user_id,jdbcType=VARCHAR},#{comment_detail,jdbcType=VARCHAR},#{comment_time,jdbcType=VARCHAR}
+		)
+	</insert>
+	
+	<!-- 通过 心情id查询对应的-->
+	<select id="queryCommentByDiaryId" parameterType="String" resultType="com.djf.bean.Comment">
+		select * from comment where diaryId=#{diaryid,jdbcType=VARCHAR}
+	</select>
+
+</mapper>

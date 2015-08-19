@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="libs/slidingmenu.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/fastjson-1.1.38.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/afinal_0.5.1_bin.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/apache-mime4j-0.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/httpmime-4.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/GifView.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/BaiduLBS_Android.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/locSDK_3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/pushservice-4.2.0.63.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

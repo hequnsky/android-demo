@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/bean
+END
+Comment.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/bean/Comment.java
+END
+MoodInBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/bean/MoodInBean.java
+END
+SelectBitmap.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/bean/SelectBitmap.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/bean/User.java
+END
+UserBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/bean/UserBean.java
+END
+Data.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/bean/Data.java
+END
+FriendMessageBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/bean/FriendMessageBean.java
+END
+PrivateLetter.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/bean/PrivateLetter.java
+END
+UpdateBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/bean/UpdateBean.java
+END
+UserInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/bean/UserInfoBean.java
+END
+BasePrivateLetter.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/bean/BasePrivateLetter.java
+END
+MoodInfoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/bean/MoodInfoBean.java
+END
+PullTheBlackBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/bean/PullTheBlackBean.java
+END
+BaseBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/bean/BaseBean.java
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/upload
+END
+StringUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/upload/StringUtils.java
+END
+HttpHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/upload/HttpHelper.java
+END
+HttpStringResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/upload/HttpStringResult.java
+END
+ProgressMultiPartEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/upload/ProgressMultiPartEntity.java
+END

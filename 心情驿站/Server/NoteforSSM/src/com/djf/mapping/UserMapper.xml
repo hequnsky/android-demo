@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.djf.dao.UserDAO">
+	<resultMap id="BaseResultMap" type="com.djf.bean.User">
+		<id column="id" property="id" jdbcType="VARCHAR" />
+		<result column="name" property="name" jdbcType="VARCHAR" />
+		<result column="password" property="password" jdbcType="VARCHAR" />
+		<result column="image" property="image" jdbcType="VARCHAR" />
+		<result column="phone" property="phone" jdbcType="VARCHAR" />
+		<result column="city" property="city" jdbcType="VARCHAR" />
+		<result column="age" property="age" jdbcType="VARCHAR" />
+		<result column="sex" property="sex" jdbcType="VARCHAR" />
+		<result column="address" property="address" jdbcType="VARCHAR" />
+		<result column="gold" property="gold" jdbcType="VARCHAR" />
+		<result column="vip" property="vip" jdbcType="VARCHAR" />
+	</resultMap>
+
+
+	<!-- 用户注册 -->
+	<insert id="regist" parameterType="com.djf.bean.User">
+		insert into user (id,phone,password,name)
+		values (#{id,jdbcType=VARCHAR},
+		#{phone,jdbcType=VARCHAR},#{password,jdbcType=VARCHAR},#{name,jdbcType=VARCHAR}
+		)
+	</insert>
+	<!-- 用户登录 -->
+	<select id="login" parameterType="com.djf.bean.User" resultMap="BaseResultMap">
+		SELECT * FROM user WHERE phone=#{phone,jdbcType=VARCHAR} and
+		password=#{password,jdbcType=VARCHAR}
+	</select>
+
+	<!-- 根据用户名去查询数据库是否有对应的记录 -->
+	<select id="queryUserForName" parameterType="String" resultMap="BaseResultMap">
+		select * from user where phone=#{name,jdbcType=VARCHAR}
+	</select>
+
+	<!-- 修改用户密码 ， -->
+	<update id="updateUserPwd" parameterType="com.djf.bean.User">
+		update user set password=#{password,jdbcType=VARCHAR} where id=#{id,jdbcType=VARCHAR}
+	</update>
+	
+	<!-- 修改用户图像 -->
+	<update id="updateUserIcon" parameterType="com.djf.bean.User">
+		update user set image=#{image,jdbcType=VARCHAR} where id=#{id,jdbcType=VARCHAR}
+	</update>
+	 <!-- 修改用户资料，用户图像不参加 -->
+	  <update id="updateUserInfo" parameterType="com.djf.bean.User">
+		update user set
+		name=#{name,jdbcType=VARCHAR}
+		,city=#{city,jdbcType=VARCHAR}
+		,age=#{age,jdbcType=VARCHAR}
+		,sex=#{sex,jdbcType=VARCHAR}
+		,address=#{address,jdbcType=VARCHAR}
+		where id=#{id,jdbcType=VARCHAR}
+	</update>
+	
+	<!--修改用户资料带图像  -->
+	<update id="updateUserInfoImage" parameterType="com.djf.bean.User">
+		update user set
+		name=#{name,jdbcType=VARCHAR}
+		,image=#{image,jdbcType=VARCHAR}
+		,city=#{city,jdbcType=VARCHAR}
+		,age=#{age,jdbcType=VARCHAR}
+		,sex=#{sex,jdbcType=VARCHAR}
+		,address=#{address,jdbcType=VARCHAR}
+		where id=#{id,jdbcType=VARCHAR}
+	</update>
+	<!-- 根据用户id查询用户资料 -->
+	<select id="getUserInfoId" parameterType="Integer" resultType="com.djf.bean.User">
+		select * from user where id=#{id};
+	</select>
+
+</mapper>

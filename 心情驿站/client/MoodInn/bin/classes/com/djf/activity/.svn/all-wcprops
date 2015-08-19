@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/activity
+END
+MainActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/activity/MainActivity.java
+END
+UserInfoActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/activity/UserInfoActivity.java
+END
+BrowseImageViewActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/activity/BrowseImageViewActivity.java
+END
+WriteMoodActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/activity/WriteMoodActivity.java
+END
+FriendsMessageActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/activity/FriendsMessageActivity.java
+END
+BaseActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/activity/BaseActivity.java
+END
+SettingActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/activity/SettingActivity.java
+END
+UserFeedbackActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/activity/UserFeedbackActivity.java
+END
+GuiteActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/activity/GuiteActivity.java
+END
+UserHelpActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/activity/UserHelpActivity.java
+END
+AgreementActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/activity/AgreementActivity.java
+END
+CurrentLoactionMapActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/activity/CurrentLoactionMapActivity.java
+END
+LoginActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/activity/LoginActivity.java
+END
+MessageActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/activity/MessageActivity.java
+END
+SystemDetailAcitivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/activity/SystemDetailAcitivity.java
+END
+RegisterActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/activity/RegisterActivity.java
+END
+WelcomeActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/activity/WelcomeActivity.java
+END

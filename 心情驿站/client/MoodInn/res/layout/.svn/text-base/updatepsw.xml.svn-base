@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee" >
+
+
+    <RelativeLayout
+        android:id="@+id/log_lay1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="30dip"
+        android:background="@drawable/box" >
+
+        <ImageView
+            android:id="@+id/iv_old_psw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/lock_now" />
+
+        <EditText
+            android:id="@+id/et_old_psw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:layout_toRightOf="@id/iv_old_psw"
+            android:background="@color/white"
+            android:hint="输入现在密码"
+            android:maxLength="64"
+            android:textColor="@color/black"
+            android:textColorHint="#666666"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/log_lay2"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/log_lay1"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/box" >
+
+        <ImageView
+            android:id="@+id/iv_security"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/icon_lock" />
+
+        <EditText
+            android:id="@+id/et_new_psw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:layout_toRightOf="@id/iv_security"
+            android:background="@color/white"
+            android:hint="输入新密码"
+            android:maxLength="64"
+            android:textColor="@color/black"
+            android:textColorHint="#666666"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/log_lay3"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/log_lay2"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/box" >
+
+        <ImageView
+            android:id="@+id/iv_submit_psw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/icon_confirmation" />
+
+        <EditText
+            android:id="@+id/et_submit_new_psw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:layout_toRightOf="@id/iv_submit_psw"
+            android:background="@color/white"
+            android:hint="确认新密码"
+            android:maxLength="64"
+            android:textColor="@color/black"
+            android:textColorHint="#666666"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_submit"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_below="@id/log_lay3"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="30dip"
+        android:background="@drawable/buttom_1"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:text="确认"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#F5F5F5"
+    android:layout_height="match_parent" >
+    
+    <com.djf.view.TitleBar 
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/userTitleBar"
+        android:layout_alignParentTop="true"
+        ></com.djf.view.TitleBar>
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/userTitleBar"
+        >
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="名字(选填)"
+                android:layout_alignParentTop="true"
+                android:id="@+id/tvName"
+                />
+                <EditText 
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/etName"
+                android:hint="英雄名"
+                android:textSize="13sp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/tvName"
+                android:background="@drawable/shape_bg"
+                />
+        </RelativeLayout>
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="联系方式(选填)"
+                android:layout_alignParentTop="true"
+                android:id="@+id/tvContact"
+                />
+                <EditText 
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/etQQ"
+                android:hint="联系方式"
+                android:textSize="13sp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/tvContact"
+                android:background="@drawable/shape_bg"
+                />
+        </RelativeLayout>
+         <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="建议(必填)"
+                android:layout_alignParentTop="true"
+                android:id="@+id/tvSuggest"
+                />
+                <EditText 
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/etSuggest"
+                android:textSize="13sp"
+                android:gravity="top"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/tvSuggest"
+                android:background="@drawable/shape_bg"
+                />
+        </RelativeLayout>
+        
+         <Button
+        android:id="@+id/btnOk"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:layout_marginTop="15.0dip"
+        android:background="@drawable/btn_login_selector"
+        android:gravity="center"
+        android:paddingTop="5.0dip"
+        android:text="提  交"
+        android:textColor="@color/white"
+        android:textSize="18.0sp" /> 
+    </LinearLayout>
+    
+</RelativeLayout>

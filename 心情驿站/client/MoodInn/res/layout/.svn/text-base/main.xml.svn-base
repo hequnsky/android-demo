@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <com.djf.view.TitleBar 
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/mainTitleBar"
+        android:layout_alignParentTop="true"
+        ></com.djf.view.TitleBar>
+	
+	<com.djf.listview.XListView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/myListView"
+        android:layout_below="@+id/mainTitleBar"
+        android:layout_above="@+id/layoutButtom"
+        android:divider="@null"
+        ></com.djf.listview.XListView>
+	
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="38dp"
+	    android:background="#9E9E9E"
+	    android:layout_alignParentBottom="true"
+	    android:id="@+id/layoutButtom"
+	    android:visibility="invisible"
+	    >
+	    <com.djf.view.AlwaysMarqueeTextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/white"
+	        android:layout_centerInParent="true"
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="5dp"
+	        android:singleLine="true"
+	        android:id="@+id/alwaysStr"
+	        android:scrollHorizontally="true"
+	        android:marqueeRepeatLimit="marquee_forever"
+	        android:focusableInTouchMode="true"
+	        android:ellipsize="marquee"
+	        />
+	</RelativeLayout>
+	   
+<!--   <com.ant.liao.GifView
+        android:id="@+id/gifview01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        /> -->
+</RelativeLayout>

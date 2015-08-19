@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.djf.dao.FeedBackDAO">
+	
+
+
+	<!-- 用户反馈 -->
+	<insert id="addFeedBack" parameterType="com.djf.bean.FeedBack">
+		insert into feedback (id,time,content,name,contact)
+		values (#{id,jdbcType=VARCHAR},
+		#{time,jdbcType=VARCHAR},#{content,jdbcType=VARCHAR},#{name,jdbcType=VARCHAR},#{contact,jdbcType=VARCHAR}
+		)
+	</insert>
+	
+
+</mapper>

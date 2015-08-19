@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/view
+END
+CircleImageView.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/view/CircleImageView.java
+END
+EditTextWithDel.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/view/EditTextWithDel.java
+END
+TitleBar.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/view/TitleBar.java
+END
+ColorPickerDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/view/ColorPickerDialog.java
+END
+CustomDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/view/CustomDialog.java
+END
+NoScrollGridView.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/view/NoScrollGridView.java
+END
+SwitchButton.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/view/SwitchButton.java
+END
+AlwaysMarqueeTextView.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/view/AlwaysMarqueeTextView.java
+END
+ObservableScrollView.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/view/ObservableScrollView.java
+END
+FrameAnimationController.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/view/FrameAnimationController.java
+END
+FeatureAnimationListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/view/FeatureAnimationListener.java
+END

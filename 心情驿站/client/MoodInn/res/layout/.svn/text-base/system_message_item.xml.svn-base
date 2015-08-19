@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+        <!-- 接收人，以及时间 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:id="@+id/accept_time"
+            >
+            <RelativeLayout 
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/left"
+                >
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="接收人:"
+                    android:id="@+id/accept_name"
+                    />
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="杜建峰"
+                    android:id="@+id/tvSystemName"
+                    android:layout_toRightOf="@+id/accept_name"
+                    />
+            </RelativeLayout>
+            <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2014-02-33 12:08:99"
+            android:layout_alignParentRight="true"
+            android:layout_margin="3dp"
+            android:textSize="12sp"
+            android:id="@+id/tvTime"
+            />
+            
+        </RelativeLayout>
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:text="@string/testData"
+            android:id="@+id/tvContent"
+            android:textSize="13sp"
+            />
+        
+        <RelativeLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            >
+            <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="成功"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="3dp"
+            android:id="@+id/tvResult"
+            />
+            <TextView 
+                android:text="状态:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/tvResult"
+                android:layout_marginTop="5dp"
+                />
+        </RelativeLayout>
+            
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.djf.view.TitleBar
+        android:id="@+id/TitleBar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true" >
+    </com.djf.view.TitleBar>
+
+    
+    <RelativeLayout 
+        android:layout_width="65dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/TitleBar"
+        android:background="@drawable/shape_bg"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/newUserRegister"
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新用户注册"
+            android:textSize="10sp"
+            android:layout_centerInParent="true"
+            android:layout_margin="5dp"
+            android:textColor="@color/white"
+            android:background="@color/red"
+            />
+    </RelativeLayout>
+     <LinearLayout
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="28.0dip"
+        android:layout_marginRight="28.0dip"
+        android:background="@drawable/shape_bg"
+        android:orientation="vertical" >
+
+        <com.djf.view.EditTextWithDel
+            android:id="@+id/accounts"
+            android:layout_width="fill_parent"
+            android:layout_height="44.0dip"
+            android:background="#00ffffff"
+            android:hint="手机号"
+            android:text="18301742267"
+            android:inputType="number"
+            android:maxLength="11"
+            android:maxLines="1"
+            android:paddingLeft="12.0dip"
+            android:textColor="#ff1d1d1d"
+            android:textColorHint="#ff666666"
+            android:layout_marginRight="2dp"
+            android:textSize="16.0sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:layout_marginLeft="1.0px"
+            android:layout_marginRight="1.0px"
+            android:background="#ffc0c3c4" />
+
+        <com.djf.view.EditTextWithDel
+            android:id="@+id/password"
+            android:layout_width="fill_parent"
+            android:layout_height="44.0dip"
+            android:background="#00ffffff"
+            android:gravity="center_vertical"
+            android:hint="密码"
+            android:text="456"
+            android:inputType="textPassword"
+            android:maxLength="8"
+            android:maxLines="1"
+            android:paddingLeft="12.0dip"
+            android:textColor="#ff1d1d1d"
+            android:textColorHint="#ff666666"
+            android:layout_marginRight="2dp"
+            android:textSize="16.0sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/input"
+        android:layout_marginLeft="28.0dip"
+        android:layout_marginRight="28.0dip"
+        android:layout_marginTop="15.0dip"
+        android:background="@drawable/btn_login_selector"
+        android:gravity="center"
+        android:paddingTop="5.0dip"
+        android:text="登  录"
+        android:textColor="@color/white"
+        android:textSize="18.0sp" /> 
+        
+    <!-- <com.ant.liao.GifView
+        android:id="@+id/gifview01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        /> -->
+
+</RelativeLayout>

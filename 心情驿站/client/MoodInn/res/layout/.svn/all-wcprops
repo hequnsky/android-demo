@@ -1,0 +1,251 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/android/!svn/ver/8/MoodInn/res/layout
+END
+current_location_map.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/android/!svn/ver/8/MoodInn/res/layout/current_location_map.xml
+END
+system_message_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/android/!svn/ver/8/MoodInn/res/layout/system_message_item.xml
+END
+listview_head.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/android/!svn/ver/8/MoodInn/res/layout/listview_head.xml
+END
+xlistview_footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/android/!svn/ver/8/MoodInn/res/layout/xlistview_footer.xml
+END
+system_fragment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/android/!svn/ver/8/MoodInn/res/layout/system_fragment.xml
+END
+main_gridview_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/android/!svn/ver/8/MoodInn/res/layout/main_gridview_item.xml
+END
+user_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/android/!svn/ver/8/MoodInn/res/layout/user_info.xml
+END
+pinglun_listview_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/android/!svn/ver/8/MoodInn/res/layout/pinglun_listview_item.xml
+END
+register.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/android/!svn/ver/8/MoodInn/res/layout/register.xml
+END
+browse_image.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/android/!svn/ver/8/MoodInn/res/layout/browse_image.xml
+END
+gridview_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/android/!svn/ver/8/MoodInn/res/layout/gridview_item.xml
+END
+updatepsw.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/android/!svn/ver/8/MoodInn/res/layout/updatepsw.xml
+END
+user_reedback.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/android/!svn/ver/8/MoodInn/res/layout/user_reedback.xml
+END
+activity_system_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/android/!svn/ver/8/MoodInn/res/layout/activity_system_detail.xml
+END
+system_msg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/android/!svn/ver/8/MoodInn/res/layout/system_msg.xml
+END
+activity_welcome.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/android/!svn/ver/8/MoodInn/res/layout/activity_welcome.xml
+END
+dialog_normal_layout_upd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/android/!svn/ver/8/MoodInn/res/layout/dialog_normal_layout_upd.xml
+END
+user_help.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/android/!svn/ver/8/MoodInn/res/layout/user_help.xml
+END
+user_alldiary.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/android/!svn/ver/8/MoodInn/res/layout/user_alldiary.xml
+END
+main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/android/!svn/ver/8/MoodInn/res/layout/main.xml
+END
+titlebar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/android/!svn/ver/8/MoodInn/res/layout/titlebar.xml
+END
+dialog_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/android/!svn/ver/8/MoodInn/res/layout/dialog_view.xml
+END
+guide.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/android/!svn/ver/8/MoodInn/res/layout/guide.xml
+END
+userlogin.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/android/!svn/ver/8/MoodInn/res/layout/userlogin.xml
+END
+system_private_letter_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/android/!svn/ver/8/MoodInn/res/layout/system_private_letter_item.xml
+END
+dialog_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/android/!svn/ver/8/MoodInn/res/layout/dialog_layout.xml
+END
+item_popupwindows.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/android/!svn/ver/8/MoodInn/res/layout/item_popupwindows.xml
+END
+dialog_normal_layout1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/android/!svn/ver/8/MoodInn/res/layout/dialog_normal_layout1.xml
+END
+message.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/android/!svn/ver/8/MoodInn/res/layout/message.xml
+END
+main_listview_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/android/!svn/ver/8/MoodInn/res/layout/main_listview_item.xml
+END
+agreement.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/android/!svn/ver/8/MoodInn/res/layout/agreement.xml
+END
+dialog_normal_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/android/!svn/ver/8/MoodInn/res/layout/dialog_normal_layout.xml
+END
+browse_image_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/android/!svn/ver/8/MoodInn/res/layout/browse_image_item.xml
+END
+private_fragment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/android/!svn/ver/8/MoodInn/res/layout/private_fragment.xml
+END
+slidingmenu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/android/!svn/ver/8/MoodInn/res/layout/slidingmenu.xml
+END
+listview_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/android/!svn/ver/8/MoodInn/res/layout/listview_item.xml
+END
+view_tips_loading.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/android/!svn/ver/8/MoodInn/res/layout/view_tips_loading.xml
+END
+setting.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/android/!svn/ver/8/MoodInn/res/layout/setting.xml
+END
+xlistview_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/android/!svn/ver/8/MoodInn/res/layout/xlistview_header.xml
+END
+anim_load.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/android/!svn/ver/8/MoodInn/res/layout/anim_load.xml
+END
+writemood.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/android/!svn/ver/8/MoodInn/res/layout/writemood.xml
+END

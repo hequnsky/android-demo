@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/constants
+END
+SystemConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/constants/SystemConstants.java
+END
+HttpConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/constants/HttpConstants.java
+END
+DbConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/android/!svn/ver/8/MoodInn/src/com/djf/constants/DbConstants.java
+END

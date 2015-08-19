@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.djf.dao.DiaryDAO">
+	<!-- <resultMap id="BaseResultMap" type="com.djf.bean.User" > <id column="id" 
+		property="id" jdbcType="VARCHAR" /> <result column="name" property="name" 
+		jdbcType="VARCHAR" /> <result column="password" property="password" jdbcType="VARCHAR" 
+		/> </resultMap> -->
+
+
+	<!-- 写心情 有图像-->
+	<insert id="addDiary" parameterType="com.djf.bean.Diary">
+		insert into diary
+		(id,userid,content,date,time,imgone,imgtwo,imgthree,imgfour,imgfive,imgsix)
+		values (#{id,jdbcType=VARCHAR},
+		#{userid,jdbcType=VARCHAR},#{content,jdbcType=VARCHAR},#{date,jdbcType=VARCHAR},#{time,jdbcType=VARCHAR},#{imgone,jdbcType=VARCHAR},#{imgtwo,jdbcType=VARCHAR},#{imgthree,jdbcType=VARCHAR},#{imgfour,jdbcType=VARCHAR},#{imgfive,jdbcType=VARCHAR},#{imgsix,jdbcType=VARCHAR})
+	</insert>
+	
+	<!-- 写心情无图像 -->
+	<insert id="addDiaryNoImage" parameterType="com.djf.bean.Diary">
+		insert into diary
+		(id,userid,content,date,time)
+		values (#{id,jdbcType=VARCHAR},
+		#{userid,jdbcType=VARCHAR},#{content,jdbcType=VARCHAR},#{date,jdbcType=VARCHAR},#{time,jdbcType=VARCHAR})
+	</insert>
+	
+	
+
+	<!-- 删除日记 -->
+	<delete id="deleteDiary" parameterType="Integer">
+		delete from diary where id=#{id}
+	</delete>
+	<!-- 根据当天日期查询所有日记条数 -->
+	<select id="queryTotalDiarys" parameterType="String" resultType="Integer">
+		select count(1) from diary where date=#{date}
+	</select>
+	<!-- 分页查询所有用户日记 -->
+	<select id="queryDiarys" parameterType="com.djf.bean.Page"
+		resultType="com.djf.bean.Diary">
+		select * from diary where DATEDIFF(NOW(),date) &lt;= 1 and DATEDIFF(NOW(),date) &gt;= 0 limit #{start},#{pageSize}
+	</select>
+	
+	<!-- 根据用户id查询所有心情条数 -->
+	<select id="queryTotalDiarysForId" parameterType="String" resultType="Integer">
+		select count(1) from diary where userid=#{userId}
+	</select>
+	
+	<!-- 根据用户id查询该用户的所有心情 安照分页 -->
+	<select id="queryDiarysforId" parameterType="com.djf.bean.PageForId" resultType="com.djf.bean.Diary">
+		select * from diary where userid=#{userId} limit #{start},#{pageSize}
+	</select>
+
+	<!-- 更新日记 -->
+	<update id="updateDiary" parameterType="com.djf.bean.Diary">
+		update diary set
+		content=#{content,jdbcType=VARCHAR},title=#{title,jdbcType=VARCHAR}
+		where id=#{id,jdbcType=VARCHAR}
+	</update>
+	
+</mapper>
