@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+<ScrollView 
+    android:layout_weight="25"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <LinearLayout     
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.rmc.gaiya.widget.CustomerViewPage
+            android:id="@+id/vp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="5dp" >
+        </com.rmc.gaiya.widget.CustomerViewPage>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" > 
+            <LinearLayout 
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal" >
+              <ImageView 
+                  android:layout_marginLeft="10dp"
+                  android:src="@drawable/music"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" /> 
+                  <TextView
+                      android:layout_marginLeft="10dp"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="盖娅音乐"
+                      android:textSize="15dp"/>       
+            </LinearLayout> 
+ 
+  <com.rmc.gaiya.widget.CustomGridView
+                android:id="@+id/gridView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:numColumns="3"
+                android:stretchMode="columnWidth" >
+ </com.rmc.gaiya.widget.CustomGridView>
+ </LinearLayout>
+ <!-- 盖娅音乐 -->
+         <LinearLayout
+              android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" > 
+            <LinearLayout 
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal" >
+              <ImageView 
+                  android:layout_marginLeft="10dp"
+                  android:src="@drawable/meditation"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" /> 
+                  <TextView
+                      android:layout_marginLeft="10dp"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="冥想场景"
+                      android:textSize="15dp"/>       
+            </LinearLayout> 
+ 
+  <com.rmc.gaiya.widget.CustomGridView
+                android:id="@+id/gridView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:numColumns="3"
+                android:stretchMode="columnWidth" >
+ </com.rmc.gaiya.widget.CustomGridView>
+ </LinearLayout>
+ <!--冥想场景  -->
+         <LinearLayout
+             android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" > 
+            <LinearLayout 
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal" >
+              <ImageView 
+                  android:layout_marginLeft="10dp"
+                  android:src="@drawable/xingfumima"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" /> 
+                  <TextView
+                      android:layout_marginLeft="10dp"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="幸福密码"
+                      android:textSize="15dp"/>       
+            </LinearLayout> 
+ 
+  <com.rmc.gaiya.widget.CustomGridView
+                android:id="@+id/gridView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:numColumns="3"
+                android:stretchMode="columnWidth" >
+ </com.rmc.gaiya.widget.CustomGridView>
+ </LinearLayout>
+   <!--幸福密码  -->
+   
+            <LinearLayout
+             android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" > 
+            <LinearLayout 
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal" >
+              <ImageView 
+                  android:layout_marginLeft="10dp"
+                  android:src="@drawable/guangyinkecheng"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" /> 
+                  <TextView
+                      android:layout_marginLeft="10dp"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="光音课程"
+                      android:textSize="15dp"/>       
+            </LinearLayout> 
+ 
+  <com.rmc.gaiya.widget.CustomGridView
+                android:id="@+id/gridView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:numColumns="3"
+                android:stretchMode="columnWidth" >
+ </com.rmc.gaiya.widget.CustomGridView>
+ </LinearLayout>
+   <!--香氛天堂  -->
+            <LinearLayout
+              android:layout_marginTop="10dp"   
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" > 
+            <LinearLayout 
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal" >
+              <ImageView 
+                  android:layout_marginLeft="10dp"
+                  android:src="@drawable/daoshidongtai"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" /> 
+                  <TextView
+                      android:layout_marginLeft="10dp"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="导师动态 "
+                      android:textSize="15dp"/>       
+            </LinearLayout> 
+ 
+  <com.rmc.gaiya.widget.CustomGridView
+                android:id="@+id/gridView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:numColumns="3"
+                android:stretchMode="columnWidth" >
+ </com.rmc.gaiya.widget.CustomGridView>
+ </LinearLayout>
+   <!--导师动态  -->
+            <LinearLayout
+                 android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" > 
+            <LinearLayout 
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal" >
+              <ImageView 
+                  android:layout_marginLeft="10dp"
+                  android:src="@drawable/zirantiantang"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" /> 
+                  <TextView
+                      android:layout_marginLeft="10dp"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="自然天堂 "
+                      android:textSize="15dp"/>       
+            </LinearLayout> 
+ 
+  <com.rmc.gaiya.widget.CustomGridView
+                android:id="@+id/gridView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:numColumns="3"
+                android:stretchMode="columnWidth" >
+ </com.rmc.gaiya.widget.CustomGridView>
+ </LinearLayout>
+   <!--自然天堂  -->
+            <LinearLayout
+                 android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" > 
+            <LinearLayout 
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal" >
+              <ImageView 
+                  android:layout_marginLeft="10dp"
+                  android:src="@drawable/meditation"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content" /> 
+                  <TextView
+                      android:layout_marginLeft="10dp"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="香氛天堂  "
+                      android:textSize="15dp"/>       
+            </LinearLayout> 
+ 
+  <com.rmc.gaiya.widget.CustomGridView
+                android:id="@+id/gridView7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:numColumns="3"
+                android:stretchMode="columnWidth" >
+ </com.rmc.gaiya.widget.CustomGridView>
+ </LinearLayout>
+   <!--香氛天堂  -->
+</LinearLayout>
+</ScrollView>
+   <LinearLayout
+        android:id="@+id/buttom"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    <include        
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        layout="@layout/bottom" />
+  </LinearLayout>
+</LinearLayout>

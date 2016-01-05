@@ -1,0 +1,35 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    	<item name="colorPrimary">#03a9f4</item>
+    	 <!-- toolbar颜色-->  
+    	<item name="actionBarSize">50dp</item>
+    	<item name="windowActionBar">false</item>
+    	<item name="titleTextAppearance">@style/CustomTitleTextAppearance</item>
+    	 <item name="drawerArrowStyle">@style/AppTheme.DrawerArrowToggle</item>  
+    	 
+    </style>  
+    <style name="CustomTitleTextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+        <!--设置打开和关闭菜单的按钮颜色-->  
+   <style name="AppTheme.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle">  
+        <item name="color">@android:color/white</item>  
+    </style>  
+    
+
+</resources>

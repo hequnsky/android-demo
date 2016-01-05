@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="20dp" >
+
+        <com.rmc.gaiya.widget.AvatarImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/photo"
+            android:paddingTop="20dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="gy00001"
+        android:textSize="20dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:layout_margin="10dp"
+        android:background="@drawable/line" />
+
+    <LinearLayout
+       
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageView   
+           android:layout_marginLeft="15dp"   
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/setting" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="我的主机"
+            android:textSize="15dp" />
+           <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="在线"
+            android:textSize="15dp" />
+    </LinearLayout>
+  <LinearLayout
+        android:id="@+id/lookip"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageView   
+           android:layout_marginLeft="15dp"   
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/setting" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="查找主机"
+            android:textSize="15dp" />
+    </LinearLayout>
+      <LinearLayout
+         android:id="@+id/ip_list"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageView   
+           android:layout_marginLeft="15dp"   
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/setting" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="设备列表"
+            android:textSize="15dp" />
+    </LinearLayout>
+  <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:layout_margin="10dp"
+        android:background="@drawable/line" />
+      
+    <LinearLayout
+        android:id="@+id/drawr_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_marginLeft="15dp"   
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/lnbox" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="关于盖娅"
+            android:textSize="15dp" />
+    </LinearLayout>
+     <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:layout_margin="10dp"
+        android:background="@drawable/line"
+        android:paddingTop="5dp" />
+
+    <LinearLayout
+        android:id="@+id/collect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_marginLeft="15dp"   
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/lnbox" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="我的收藏"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:layout_margin="10dp"
+        android:background="@drawable/line"
+        android:paddingTop="5dp" />
+
+    <LinearLayout
+        android:id="@+id/drawr_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_marginLeft="15dp"   
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/login_out" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="注销账户"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:layout_margin="10dp"
+        android:background="@drawable/line"
+        android:paddingTop="5dp" />
+
+</LinearLayout>
