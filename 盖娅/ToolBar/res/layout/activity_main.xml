@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    tools:context="com.rmc.gaiya.activity.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize" />
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar" >
+
+  <include layout="@layout/main_context" />
+    <include
+            android:layout_width="280sp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            layout="@layout/drawr"
+            android:gravity="center" />
+    </android.support.v4.widget.DrawerLayout>
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_bg">
+  <ImageView
+            android:layout_marginTop="30sp"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/logo" />
+  <TextView
+      android:layout_marginTop="20sp"
+      android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="盖娅光音  "
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"/>
+   <TextView
+      android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="©2014-2016深圳市盖娅光音动态网络有限公司"
+        android:layout_gravity="center_horizontal"/>
+  <TextView 
+      android:layout_margin="20dp"
+       android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="       世界著名心灵成长导师、心灵海盖娅创办人王婷莹老师领衔，在深圳盖娅光音跨界高科技团队支持下，推出的全球首套光音艺术服务系统，融入原创音乐、系列原声冥想、香氛和灯光等空间艺术元素，是互联网时代盖娅云端教室，更是随时陪伴学员左右的心灵成长的课堂。"   />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:textSize="20dp"
+    android:text="检查更新"/>
+    
+    
+</LinearLayout>

@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/include_controll_layout_title_id"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        layout="@layout/devicecontrol_top" />
+
+    <include
+        android:id="@+id/include_controll_layout_controll_id"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        layout="@layout/controll_fragment_layout" />
+
+</LinearLayout>

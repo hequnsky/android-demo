@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:toggle="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDC9C9"
+    android:orientation="vertical" >
+
+    <com.rmc.gaiya.widget.ColorPicker
+        android:id="@+id/colorPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp" />
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.zcw.togglebutton.ToggleButton
+            android:id="@+id/control_toggle"
+            android:layout_width="54dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true" >
+        </com.zcw.togglebutton.ToggleButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/control_toggle"
+            android:text="关"
+            android:layout_marginRight="10dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/control_toggle"
+            android:text="开"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="调节亮度"
+        android:textSize="20dp" />
+
+    <SeekBar
+        android:id="@+id/dimmer_leave"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_5"
+        android:max="100"
+        android:maxHeight="@dimen/padding_5"
+        android:minHeight="@dimen/padding_5"
+        android:progress="0"
+        android:progressDrawable="@drawable/thumb"
+        android:thumb="@drawable/seekbar_img"
+        android:thumbOffset="@dimen/padding_1" />
+
+</LinearLayout>

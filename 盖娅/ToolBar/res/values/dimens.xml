@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+     <dimen name="padding_1">1.0dip</dimen>
+    <dimen name="padding_2">2.0dip</dimen>
+    <dimen name="padding_3">3.0dip</dimen>
+    <dimen name="padding_4">4.0dip</dimen>
+    <dimen name="padding_5">5.0dip</dimen>
+    <!--padding-->
+    <dimen name="padding_svprogresshuddefault">15dp</dimen>
+    <!--窗口最小宽度-->
+    <dimen name="size_minwidth_svprogresshuddefault">120dp</dimen>
+    <!--图片宽高-->
+    <dimen name="size_image_bigloading">80dp</dimen>
+    <!--图片宽高-->
+    <dimen name="size_image_smallloading">60dp</dimen>
+    <!--圆角-->
+    <dimen name="radius_svprogresshuddefault">25px</dimen>
+    <!--提示的文字大小-->
+    <dimen name="textSize_svprogresshuddefault_msg">15sp</dimen>
+    <dimen name="margintop_svprogresshuddefault_msg">10dp</dimen>
+    
+     <dimen name="color_wheel_radius">124dp</dimen>
+    <dimen name="color_wheel_thickness">8dp</dimen>
+    <dimen name="color_center_halo_radius">60dp</dimen>
+    <dimen name="color_center_radius">54dp</dimen>
+    <dimen name="color_pointer_halo_radius">24dp</dimen>
+    <dimen name="color_pointer_radius">20dp</dimen>
+    <dimen name="bar_thickness">4.0dip</dimen>
+    <dimen name="bar_length">240.0dip</dimen>
+    <dimen name="bar_pointer_radius">6.0dip</dimen>
+    <dimen name="bar_pointer_halo_radius">14.0dip</dimen>
+</resources>

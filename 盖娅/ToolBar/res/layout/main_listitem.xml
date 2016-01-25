@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants" >
+   <RelativeLayout 
+       android:paddingTop="15dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content" >
+              <ImageView 
+                  android:layout_marginLeft="10dp"
+                  android:src="@drawable/music"
+                  android:layout_width="20dp"
+                  android:layout_height="20dp" 
+                  android:id="@+id/list_imgs"/> 
+                  <TextView
+                      android:layout_marginLeft="40dp"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="盖娅音乐"
+                      android:id="@+id/list_title"
+                      android:textSize="15dp"/>
+                  <TextView
+                      android:layout_marginRight="20dp" 
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentRight="true"
+                      android:id="@+id/more_more"
+                      android:textColor="#03f9a4"
+                      android:text=">>更多"
+                      /> 
+                      </RelativeLayout>
+             <com.rmc.gaiya.widget.CustomGridView
+                android:id="@+id/gridView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:numColumns="3"
+                android:stretchMode="columnWidth" >
+            </com.rmc.gaiya.widget.CustomGridView>           
+                  
+</LinearLayout>

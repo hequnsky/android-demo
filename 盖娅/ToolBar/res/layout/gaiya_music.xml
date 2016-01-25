@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:background="@drawable/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+		android:id="@+id/rootview"
+        android:orientation="vertical" >
+     <!-- 顶部 -->
+    <include  
+        layout="@layout/gaiya_music_header"/>
+    <include  
+        android:layout_marginTop="10dp"
+        layout="@layout/pan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        />
+    <!-- 喜歡 -->
+	<LinearLayout 
+	            android:layout_marginTop="10dp"
+	           android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" 
+                android:gravity="center" >
+	    <ImageView 
+	        android:id="@+id/love"
+	        android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+	        android:src="@drawable/like" />
+	     <ImageView 
+	        android:id="@+id/add_nature_sound"
+	         android:layout_marginLeft="20dp"
+	        android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+	        android:src="@drawable/more" />
+	    
+	</LinearLayout>
+        <TextView
+            android:text="安静"
+            android:textColor="#000"
+            android:layout_marginTop="12dp" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"/>
+
+              <!-- 中间的音量条 -->
+            <LinearLayout   
+                 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="00:10:29"
+                    android:textColor="#fff" />
+
+                <SeekBar
+                    android:id="@+id/music_progress"
+                    style="@android:attr/progressBarStyleHorizontal"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:max="100"
+                    android:maxHeight="1dp"
+                    android:progressDrawable="@drawable/play_seekbar_style"
+                    android:thumb="@drawable/play_seekbar_thumb" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="00:10:29"
+                    android:textColor="#fff" />
+            </LinearLayout>
+    </LinearLayout>
+    <include 
+        android:layout_marginBottom="10dp"
+       android:layout_alignParentBottom="true"
+        layout="@layout/bottom_music"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+</RelativeLayout>

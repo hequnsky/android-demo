@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="tab_text_color_normal">#000000</color>
+    <color name="tab_text_color_selected">#1570A6</color>
+    <color name="title_color">#ffffff</color>
+
+    <!-- 覆盖颜色 -->
+    <color name="bgColor_overlay">#60000000</color>
+    <color name="bgColor_overlay_black">#95000000</color>
+    <!-- 窗口背景颜色 -->
+    <color name="bgColor_svprogressdefaultview">@android:color/white</color>
+    <!-- 标题颜色 -->
+    <color name="textColor_svprogresshuddefault_msg">#000000</color>
+    <color name="roundColor_svprogresshuddefault">#e5e5e5</color>
+    <color name="roundProgressColor_svprogresshuddefault">@android:color/black</color>
+    <color name="tab_text_selected">#ff0084e8</color>
+    <color name="tab_text_normal">#ff7597b3</color>
+    <color name="main_bg">#EEFFEE</color>
+    <color name="transparent">#00000000</color>
+    <color name="lucency_white">#00ffffff</color>
+    <color name="lucency_black">#00000000</color>
+    <color name="half_lucency_black">#88000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="hint">#ff999999</color>
+    <color name="grey">#ff666666</color>
+    <color name="blue">#ff2e94da</color>
+    <color name="red">#ffa22a22</color>
+
+	    <color name="white_00">#00ffffff</color>
+    <color name="white_05">#0cffffff</color>
+    <color name="white_10">#19ffffff</color>
+    <color name="white_15">#26ffffff</color>
+    <color name="white_25">#3fffffff</color>
+    <color name="white_50">#7fffffff</color>
+    <color name="white_75">#c0ffffff</color>
+    <color name="white_100">#ffffffff</color>
+    <color name="green">#ff4ddd97</color>
+    <color name="green_05">#0c4ddd97</color>
+    <color name="green_25">#3f4ddd97</color>
+    <color name="green_50">#7f4ddd97</color>
+    <color name="green_75">#c04ddd97</color>
+    <color name="whiteandgreen">#ffcaf3d9</color>
+    <color name="gold">#FFD700</color>
+    <color name="text_color">#FFFFFF</color>
+    <color name="green_dialog">#05c644</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="orange">#FFA500</color>
+    <color name="purple">#800080</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="TextColor">#FFFFFF</color>
+    <color name="bgColor">#000000</color>
+
+
+</resources>
